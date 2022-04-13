@@ -12,6 +12,9 @@
 
 const { versions, pages, subPages } = require("./src/data/navigation");
 
+console.info(`process.env.PATH_PREFIX ${process.env.PATH_PREFIX}`)
+console.info(`process.env.AIO_FASTLY_PROD_URL ${process.env.AIO_FASTLY_PROD_URL}`)
+
 module.exports = {
   siteMetadata: {
     pages: pages,
